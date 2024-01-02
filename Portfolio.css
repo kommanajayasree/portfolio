@@ -1,0 +1,215 @@
+header {
+
+    background-color: darkslategray;
+
+    height: 80px;
+
+    color: antiquewhite;
+
+  }
+
+
+
+  /* Navigation links */
+
+  .links {
+
+    display: flex;
+
+    margin: 0;
+
+  }
+
+
+
+  .links li {
+
+    padding: 10px 15px;
+
+    list-style: none;
+
+    font-size: 26px;
+
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+
+      "Lucida Sans", Arial, sans-serif;
+
+    font-weight: bold;
+
+    margin: auto;
+
+    cursor: pointer;
+
+  }
+
+
+
+  .links li:hover {
+
+    color: rgb(84, 202, 112);
+
+    font-size: 28px;
+
+    transform: scale(1.06);
+
+    font-family: fantasy;
+
+  }
+
+
+
+  /* Boxes */
+
+  .outbox {
+
+    width: 200px;
+
+    height: 200px;
+
+    background-color: grey;
+
+  }
+
+
+
+  .inbox {
+
+    height: 300px;
+
+    width: 100px;
+
+    background-color: rgb(240, 184, 115);
+
+    font-size: 40px;
+
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    color: rgb(10, 10, 97);
+
+  }
+
+
+
+  /* Text */
+
+  .text {
+
+    font-size: large;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-style: italic;
+
+    padding-left: 600px;
+
+  }
+
+
+
+  /* Table */
+
+  td {
+
+    height: 40px;
+
+    width: 105px;
+
+    text-align: left;
+
+    padding: 5px;
+
+  }
+
+
+
+  /* Container class */
+
+  .cont-class {
+
+    padding-left: 20px;
+
+    margin: 30px;
+
+  }
+
+
+
+  /* Example division with ID */
+
+  #div1 {
+
+    width: 100%;
+
+    border: 3px solid black;
+
+    background-color: green;
+
+    color: blue;
+
+  }
+
+
+
+  /* Study class */
+
+  .study {
+
+    table-layout: initial;
+
+    border-radius: 4px;
+
+    padding: 3px;
+
+    margin: 3px;
+
+    background-color: azure;
+
+  }
+
+
+
+  /* Table */
+
+  table {
+
+    height: 50px;
+
+    width: 100%;
+
+  }
+
+
+
+  /* Button */
+
+  button {
+
+    background-color: brown;
+
+    color: antiquewhite;
+
+    width: 190px;
+
+    height: 80px;
+
+    font-size: larger;
+
+    font-style: oblique;
+
+    border-radius: 20%;
+
+    cursor: pointer;
+
+  }
+
+
+
+  button:hover {
+
+    background-color: rgb(193, 212, 164);
+
+    color: rgb(252, 3, 3);
+
+    font-size: larger;
+
+  }
